@@ -1,0 +1,38 @@
+body{
+  background-image: url('2.png');
+}
+
+
+.snakeEat{
+  width: 10px;
+  height: 10px;
+  background-color: lightblue;
+  display: inline-block;
+  margin-left: -4px;
+}
+
+.snakePanjang{
+  width: 100px;
+  height: 10px;
+  display: inline-block;
+  background-color: lightblue;
+}
+
+.food{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: salmon;
+  position: absolute;
+  transition: 2s;
+}
+
+.karakter{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  border: 3px solid white;
+  position: absolute;
+  transform: translate(100px, 100px);
+}
